@@ -1,0 +1,31 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.form-content {
+  border: solid 1px #ddd;
+  padding: 1em;
+  font-size: 20px;
+}
+
+.form-content > .formrow {
+  margin: .2em 0 .5em;
+}
+
+.form-content input {
+  height: 25px;
+  font-size: 16px;
+}
+
+.form-content .btn {
+  background-color: green;
+  border: solid 1px green;
+  color: white;
+  cursor: pointer;
+  padding: .5em 0;
+  width: 100%;
+}
